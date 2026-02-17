@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishav-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+    <!-- ==========header-section=========> -->
+    <header class="navbar glass">
+        <div class="logo">🚀 Portfolio</div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#hero">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <button id="themeToggle">🌓</button>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+    <!-- ===============hero-section=========> -->
+    <section class="hero-section" id="hero">
+        <div class="hero-content">
+            <h1>Hi,i'm <span class="highlight">Rishav Raj</span></h1>
+            <h2><span id="typing"></span></h2>
+            <p>i craft data science with modern technologies and clean code.</p>
+            <div class="hero-buttons">
+                <a href="https://www.linkedin.com/in/rishav-singh-8ab685293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn">Linkedin</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+    <!-- ==========projects-section=========> -->
+    <section class="projects-section" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="images/project1.png" alt="my project 1">
+                <div class="project-info">
+                    <h3>Project One</h3>
+                    <p>A sleek web app build with React and Node.js, focused on user experience.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-outline" target="_blank" rel="noopener">Live Demo</a>
+                        <a href="#" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/project2.png" alt="my project 2">
+                <div class="project-info">
+                    <h3>Project Two</h3>
+                    <p>A RESTful API build with Express and MongoDB for scalable applications.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-outline" target="_blank" rel="noopener">Live Demo</a>
+                        <a href="#" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ============about-section==========> -->
+    <section class="about-section" id="about">
+        <h2 class="sectio-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Hello! I'm <span class="highlight">Rishav</span> from Siwan, Bihar.
+I completed my 10th (CBSE Board) in 2023 from S.S. Public School, Dighwa Dubauli, Gopalganj.
+
+Currently, I’m pursuing a Diploma in Computer Science Engineering (2023–2026) at Jagannath University, Jaipur.
+
+I have strong skills in HTML, CSS, Java, and multiple programming languages. Along with coding, I am passionate about research and innovation, and I hold several certifications that reflect my dedication to learning and growth.
+
+My goal is to build impactful solutions in technology and contribute to the field of computer science and research with creativity and innovation.
+                </p>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+            <div class="about-image">
+                <img src="images/abouts.png" alt="my about image">
+            </div>
+        </div>
+    </section>
+    <!-- ============contact-section===========> -->
+    <section class="contact-section" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <form class="contact-form" id="contactform" novalidate>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="email" name="name" id="name" placeholder="Your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Email</label>
+                    <input type="email" name="email" id="name" placeholder="Your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Message</label>
+                    <textarea type="email" name="message" id="message" rows="5" placeholder="Write your message..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn">Send Message</button>
+                <p class="form-status" id="formStatus"></p>
+            </form>
+
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <p><strong>Email:</strong> <a href="rishavsinghgautam09gmail.com">rishavsinghgautam09gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+91 9102456985">+91 7859 04 3349</a></p>
+                <p><strong>Locatio:</strong>India</p>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" aria-label="Twitter" target="_blank" rel="noopener"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
